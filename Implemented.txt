@@ -1,0 +1,11 @@
+Implemented:
+Angular
+-Basic Front end (no css & bootstrap yet)
+-Receiving token for auth from gateway
+-Sending Bearer using HTTP Interceptor
+
+
+ASP.NET
+-Authorization
+-Ocelot gateway
+-Sample MicroService
