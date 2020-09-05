@@ -1,0 +1,11 @@
+<p>login works!</p>
+
+<form>
+    UserName: <input type ="text" [(ngModel)] = "uname"  name="uname"/><br/>
+    Password: <input type ="password" [(ngModel)]="pass" name="pass" /><br/>
+    <button type="button" (click)="Login()" >Submit</button>
+</form>
+<br/>
+{{uname}}
+<br/>
+{{pass}}

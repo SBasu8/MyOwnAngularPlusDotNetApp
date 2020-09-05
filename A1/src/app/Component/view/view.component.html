@@ -1,0 +1,13 @@
+<p>view works!</p>
+<h1>{{message}}</h1>
+
+<form>
+
+Username: <input type="text" [(ngModel)]="uname" name="Username" /><br/>
+Password: <input type="password" [(ngModel)]="pass"  name="Password"/><br/>
+<button (click)="submit()">Submit button</button>
+</form>
+
+
+<p>{{uname}}</p>
+<p>{{pass}}</p>
